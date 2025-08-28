@@ -1,0 +1,13 @@
+# Virtual Environment
+ai_venv/
+
+# Python cache
+__pycache__/
+
+# Generated Data - Do not upload large data files
+*.csv
+*.txt
+*.joblib
+
+# VSCode settings
+.vscode/
