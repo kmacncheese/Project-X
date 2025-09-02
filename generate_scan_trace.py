@@ -10,4 +10,4 @@ def generate_scan_trace(filename, num_lines):
     print("Done.")
 
 if __name__ == "__main__":
-    generate_scan_trace("traces/lru_killer_trace.txt", 100000)
+    generate_scan_trace("traces/scan_trace.txt", 100000)

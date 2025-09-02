@@ -15,7 +15,6 @@ def train_model():
     X = df[features]
     y = df['should_evict']
 
-    print("Training the Decision Tree model with the 'stride' feature...")
     model = DecisionTreeClassifier(max_depth=10, random_state=42)
     model.fit(X, y)
     print("Model training complete.")
