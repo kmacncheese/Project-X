@@ -1,11 +1,7 @@
-# generate_thrashing_trace.py
 import random
 
 def generate_thrashing_trace(filename, num_lines):
-    """
-    Generates a trace that first causes cache thrashing with a large
-    locality set, then introduces a scan to defeat LRU.
-    """
+    # Generates a trace that first causes cache thrashing with a large locality set, then introduces a scan to defeat LRU.
     print(f"Generating thrashing + scan trace file: {filename}")
     
     # CRITICAL: The number of hot addresses is > cache size (1024)

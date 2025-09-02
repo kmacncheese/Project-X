@@ -1,10 +1,7 @@
-# generate_mixed_trace.py
 import random
 
 def generate_mixed_trace(filename, locality_lines, scan_lines):
-    """
-    Generates a trace that first establishes locality, then introduces a scan.
-    """
+    # Generates a trace that first establishes locality, then introduces a scan.
     print(f"Generating mixed-workload trace file: {filename}")
     
     hot_addresses = [f"0x{i*4096:08x}" for i in range(500)] # Valuable pages

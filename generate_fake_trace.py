@@ -1,7 +1,7 @@
 import random
 
 def generate_fake_trace(filename, num_lines):
-    """Generates a high-locality trace file."""
+    #Generates a high-locality trace file.
     print(f"Generating high-locality trace file: {filename}")
     hot_addresses = [f"0x{i*4096:08x}" for i in range(10)]
     

@@ -1,5 +1,5 @@
 def generate_scan_trace(filename, num_lines):
-    """Generates a scan-heavy, 'LRU-killer' trace file."""
+    # Generates a scan-heavy, 'LRU-killer' trace file.
     print(f"Generating scan-heavy trace file: {filename}")
     base_address = 0x80000000 
     
