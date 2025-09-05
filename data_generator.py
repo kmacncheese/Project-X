@@ -4,10 +4,7 @@ import bisect
 import argparse
 
 def generate_training_data(trace_file, output_csv, cache_size):
-    """
-    Simulates a cache with an oracle to generate labeled training data, 
-    including the 'stride' feature.
-    """
+    # Simulates a cache with an oracle to generate labeled training data, including the 'stride' feature.
     print(f"--- Generating data for: {trace_file} ---")
     
     with open(trace_file, 'r') as f:
