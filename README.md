@@ -1,6 +1,6 @@
 # AI-Driven Cache Replacement Policy Simulator
 > CSCE 489 Operating Systems   
-> Student: Kyler McElroy
+> Student: Kyler McElroy  
 > Instructor: Mark Duncan
 
 This project is a proof-of-concept simulator developed to explore the viability of using a machine learning model as an intelligent cache replacement policy. It demonstrates that a learned policy, trained via imitation learning, can significantly outperform traditional static heuristics like LRU (Least Recently Used) and FIFO (First-In, First-Out) on complex, adversarial workloads.
